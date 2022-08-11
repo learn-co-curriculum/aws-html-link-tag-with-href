@@ -16,14 +16,18 @@ Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
 Code.
 
+Install all the dependencies with `npm install` to ensure you can test
+your work as you go with `npm test`.
+
+
 ## Write an `a` Tag to Create a Link
 
 Open `index.html` in your text editor. Add an `a` tag with the inner text (the
-text between the `<a>` tag and the `</a>` tag) of `Flatiron School` anywhere in
+text between the `<a>` tag and the `</a>` tag) of `Amazon` anywhere in
 the file. Then set the `href` attribute of your new link element to
-`https://flatironschool.com`.
+`https://amazon.com`.
 
-Check your progress by running `learn test`. Failing tests will provide helpful
+Check your progress by running `npm test`. Failing tests will provide helpful
 error messages that you can use to debug your code — read them closely for
 hints!
 

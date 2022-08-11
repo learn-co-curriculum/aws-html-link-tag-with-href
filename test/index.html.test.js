@@ -8,13 +8,13 @@ describe("index.html", () => {
     expect(aTag).to.exist;
   });
 
-  it("has the text content of 'Flatiron School'", () => {
+  it("has the text content of 'Amazon'", () => {
     const aTag = document.querySelector("a");
-    expect(aTag).to.have.text("Flatiron School");
+    expect(aTag).to.have.text("Amazon");
   });
 
-  it("has the href attribute of 'https://flatironschool.com'", () => {
+  it("has the href attribute of 'https://amazon.com'", () => {
     const aTag = document.querySelector("a");
-    expect(aTag).to.have.attribute("href", "https://flatironschool.com");
+    expect(aTag).to.have.attribute("href", "https://amazon.com");
   });
 });
